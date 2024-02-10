@@ -1,0 +1,157 @@
+body {
+  font-family: "Georgia";
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #f3f3f6, #1159e8);
+}
+
+/* Rest of your CSS styles remain unchanged... */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* editing the image */
+.rounded-image {
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 20%;
+  object-fit: cover;
+}
+
+nav {
+  background-color: #171717;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a:hover {
+  color: #512fe8;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+header {
+  background: linear-gradient(to bottom, hwb(216 5% 12%), #f5ecec);
+  text-align: center;
+  padding: 2em;
+  color: white;
+}
+
+header h1,
+header p {
+  color: rgb(17, 1, 1); /* Set the text color to white */
+}
+
+/* Use the same class name, class "rounded-image" for the image */
+header .rounded-image {
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.skills-buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+/* Add this CSS to your existing stylesheet */
+.skills-buttons button {
+  background-color: #071016;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.skills-buttons button:hover {
+  background-color: #2038d2; /* Change the background color on hover */
+}
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.content {
+  padding: 20px;
+  background: linear-gradient(to bottom, #ebeff1, #205bdc);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  margin: 20px;
+}
+
+.content:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2, h3 {
+  color: #191717;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row; /* Set flex-direction to row */
+  margin: 20px; /* Add margin to create space between projects */
+}
+
+.project {
+  width: 35%; /* Adjust the width to fit two projects in a row with spacing */
+  margin: 10px;
+  box-shadow: 0 0 5px rgba(252, 160, 160, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+
+.project:hover {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+}
+
+
+
+/* Style for individual project tiles */
+.project {
+  background: linear-gradient(to bottom, rgb(32, 22, 228), white);
+  padding: 15px;
+  margin: 10px 0;
+}
+
+/* Style for project titles */
+.project h3 {
+  color: rgb(13, 14, 13);
+}
+
+/* Style for project links */
+.project a {
+  color: rgb(21, 20, 20);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #171717;
+  color: white;
+}
